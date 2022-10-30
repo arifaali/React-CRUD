@@ -1,0 +1,156 @@
+.hide{
+  display: none !important;
+}
+  .user_card {
+        height: auto;
+        width: 350px;
+        margin-top: 10%;
+        margin-bottom: auto;
+        background: #fff;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+
+    }
+    .brand_logo_container {
+        position: absolute;
+        height: 170px;
+        width: 170px;
+        top: -75px;
+        border-radius: 50%;
+        background: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+    .brand_logo {
+        height: 50%;
+        width: 50%;
+        border-radius: 50%;
+        border: 2px solid white;
+    }
+    .form_container {
+        margin-top: 100px;
+    }
+    .login_btn {
+        width: 100%;
+        background: #0a66c2 !important;
+        color: white !important;
+    }
+    .login_btn:focus {
+        box-shadow: none !important;
+        outline: 0px !important;
+    }
+    .login_container {
+        padding: 0 2rem;
+    }
+    .input-group-text {
+        background: #0a66c2 !important;
+        color: white !important;
+        border: 0 !important;
+        border-radius: 0.25rem 0 0 0.25rem !important;
+    }
+    .input_user,
+    .input_pass:focus {
+        box-shadow: none !important;
+        outline: 0px !important;
+    }
+    .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+        background-color: #0a66c2 !important;
+    }
+
+    .vdalid{
+        border-bottom: 2px solid #61ea61;
+        border-top: 2px solid #61ea61;
+        border-right: 2px solid #61ea61;
+    }
+    .validIcon:before{
+        position: absolute;
+        right: 12px;
+        margin-top: 10px;
+        color: #33b533;
+        content: "\f058";
+        font-family: FontAwesome;
+    }
+    .inValidIcon::before{
+        position: absolute;
+        right: 12px;
+        margin-top: 10px;
+        color: #ea2424;
+        content: "\f071";
+        font-family: FontAwesome;
+    }
+    .bounce {
+        outline: 0;
+        border-color: red;
+        border:1px solid red !important;
+        animation-name: bounce;
+        animation-duration: .5s;
+        animation-delay: 0.25s;
+      }
+      @keyframes bounce {
+        0% {
+          transform: translateX(0px);
+          timing-function: ease-in;
+        }
+        37% {
+          transform: translateX(5px);
+          timing-function: ease-out;
+        }
+        55% {
+          transform: translateX(-5px);
+          timing-function: ease-in;
+        }
+        73% {
+          transform: translateX(4px);
+          timing-function: ease-out;
+        }
+        82% {
+          transform: translateX(-4px);
+          timing-function: ease-in;
+        }
+        91% {
+          transform: translateX(2px);
+          timing-function: ease-out;
+        }
+        96% {
+          transform: translateX(-2px);
+          timing-function: ease-in;
+        }
+        100% {
+          transform: translateX(0px);
+          timing-function: ease-in;
+        }
+      }
+    .form-input {
+        display: block;
+        width: 100%;
+        height: calc(2.25rem + 2px);
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        border-top-left-radius: 0.25rem;
+        border-bottom-left-radius: 0.25rem;
+        border-top-left-radius: 0.25rem;
+        border-bottom-left-radius: 0.25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        position: relative;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        width: 1%;
+        margin-bottom: 0;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    
+    
